@@ -1,0 +1,100 @@
+h1 {							/* 見出しのデザイン */
+    margin: 10px 10px 5px 10px;
+    border-bottom: solid 2px green;
+    background-color: #aaffaa;
+    border-radius: 10px;
+}
+h2 {							/* 見出しのデザイン */
+    margin: 10px 10px 5px 10px;
+    border-bottom: solid 2px #696969;
+    background-color: black;
+    border-radius: 10px;
+    color: #ffffff;
+}
+div#input, div#view {			/* 枠のデザイン */
+    border: ridge 6px blue;
+    text-align: center;
+    width: 540px;
+    margin: auto;
+    background-color: #cceeff;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+input, textarea { 				/* 入力欄のデザイン */
+    border: solid 2px green;
+    font-size: 14pt;
+    padding: 3px;
+    display:inline;
+    vertical-align:middle;
+}
+input#submit_button {						/* ボタンのデザイン */
+    background-color : #3388dd;
+    color: white;
+    font-size: 16pt;
+    border: none;
+    border-radius: 5px;
+}
+
+button {						/* ボタンのデザイン */
+    background-color : #3388dd;
+    color: white;
+    font-size: 16pt;
+    border: none;
+    border-radius: 5px;
+}
+div#detail p{					/* 投稿内容表示のデザイン */
+    font-size:15pt;
+    font-weight: bold;
+    text-align:left;
+    background-color: #ffffcc;
+    border: solid 2px orange;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p.comment {
+    text-align: left;
+    margin-left: 10px;
+}
+p strong{						/* 投稿者情報のデザイン */
+    display: block;
+    color: blue;
+    font-size:18pt;
+}
+p em{							/* IPアドレスのデザイン */
+    display: block;
+    color: green;
+    text-align: right;
+}
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+th {
+    text-align:left;
+}
+
+div#mypage {			               /* マイページのデザイン */
+    border: ridge 6px black;
+    text-align: center;
+    width: 540px;
+    margin: auto;
+    background-color: #808080;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+div#mypage2{					/* マイページの中のデザイン */
+    font-size:12pt;
+    font-weight: bold;
+    text-align:left;
+    background-color: silver;
+    border: solid 2px black;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
